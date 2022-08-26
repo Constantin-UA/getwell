@@ -1,0 +1,89 @@
+@import '../../style/variables';
+
+.about {
+	position: relative;
+	padding: 0px 0px 0px 0px;
+	min-height: 100vh;
+	width: 100%;
+	color: $text-color;
+	&-bg {
+		position: absolute;
+		transition: 2s all ease-in;
+		background-image: url('../../assets/about/a1.jpg');
+		background-position: center;
+		background-size: cover;
+		width: 100vw;
+		height: 100%;
+		z-index: -2;
+	}
+	&-wrapper {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 0 50px;
+	}
+	&-title {
+		padding-top: 15vh;
+		font-size: 30px;
+		font-weight: bold;
+		text-align: center;
+		text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+	}
+	&-subtitle {
+		text-align: center;
+		font-size: 20px;
+		text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+	}
+	&-descr {
+		display: flex;
+		position: relative;
+		flex-direction: column;
+		text-align: center;
+		justify-content: center;
+		row-gap: 2vh;
+		color: #fff;
+		border-radius: 10px;
+		padding: 25px;
+		background-color: rgba($color: $main-color, $alpha: 0.8);
+		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+		border-radius: 10px;
+		&-title {
+			font-size: 20px;
+		}
+	}
+	&-accordion-wrapper {
+		background-color: rgba($color: $main-color, $alpha: 0.5);
+	}
+}
+.accordion-item {
+	background-color: rgba($color: $main-color, $alpha: 0.5);
+	color: #fff;
+}
+.accordion-header {
+	button {
+		background-color: rgba($color: $main-color, $alpha: 0.5);
+		color: #fff;
+	}
+}
+@media screen and (max-width: 768px) {
+	.about {
+		&-title {
+			padding-top: 15vh;
+			font-size: 24px;
+		}
+		&-subtitle {
+			font-size: 16px;
+		}
+		&-descr {
+			padding: 0;
+			&-title {
+				font-size: 16px;
+			}
+		}
+		&-ac-descr {
+			font-size: 16px;
+		}
+	}
+}

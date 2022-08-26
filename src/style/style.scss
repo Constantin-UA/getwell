@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import './variables.scss';
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #282c34;
+}
+body::-webkit-scrollbar {
+	width: 0;
+}

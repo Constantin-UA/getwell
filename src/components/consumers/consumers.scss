@@ -1,0 +1,84 @@
+@import '../../style/variables';
+
+.consumers {
+	position: relative;
+	color: $text-color;
+	padding: 0px 0px 0px 0px;
+	min-height: 100vh;
+	width: 100%;
+	text-align: center;
+	&-title {
+		padding-top: 15vh;
+		font-size: 30px;
+		font-weight: bold;
+		text-align: center;
+		text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+	}
+	&-subtitle {
+		text-align: center;
+		font-size: 20px;
+		text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+	}
+	&-item {
+		cursor: pointer;
+		margin-top: 10px;
+		background-color: rgba(35, 39, 40, 0.4);
+		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+		height: 25vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		row-gap: 10%;
+		padding: 10px;
+	}
+}
+.icon {
+	width: 50px;
+	height: 50px;
+}
+
+.bg-img-1,
+.bg-img-2,
+.bg-img-3,
+.bg-img-4,
+.bg-img-5,
+.bg-img-6 {
+	position: absolute;
+	display: block;
+	width: 100vw;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	transition: 0.5s all ease-out;
+	z-index: -2;
+}
+.bg-img-1 {
+	background-image: url('../../assets/consumers/c1.jpg');
+}
+.bg-img-2 {
+	background-image: url('../../assets/consumers/c2.jpg');
+}
+.bg-img-3 {
+	background-image: url('../../assets/consumers/c3.jpg');
+}
+.bg-img-4 {
+	background-image: url('../../assets/consumers/c4.jpg');
+}
+.bg-img-5 {
+	background-image: url('../../assets/consumers/c5.jpg');
+}
+.bg-img-6 {
+	background-image: url('../../assets/consumers/c6.jpg');
+}
+
+@media screen and (max-width: 768px) {
+	.consumers {
+		&-title {
+			font-size: 24px;
+		}
+		&-subtitle {
+			font-size: 16px;
+		}
+	}
+}

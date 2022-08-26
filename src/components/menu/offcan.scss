@@ -1,0 +1,30 @@
+@import '../../style/variables.scss';
+.offcan {
+	background-color: $main-color;
+	&-img-menu {
+		width: 30px;
+		height: 100%;
+		background-color: #fff;
+		border-radius: 5px;
+	}
+	&-wrapper {
+		justify-content: center;
+		align-items: center;
+	}
+	&-item {
+		color: #fff;
+	}
+	&-lang {
+		margin-top: 20px;
+		text-align: center;
+		color: goldenrod;
+	}
+	&-logo {
+		border-radius: 10px;
+		width: 20vw;
+		background-color: rgba($color: #fff, $alpha: 0.5);
+	}
+}
+.active {
+	text-decoration: underline;
+}

@@ -1,0 +1,76 @@
+@import '../../style/variables.scss';
+
+.main {
+	color: #000;
+	transition: 2s all ease;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	position: relative;
+	direction: column;
+	justify-content: center;
+	align-items: center;
+	&-wrapper {
+		max-width: 100%;
+		padding: 0px 10px 10px 0;
+		margin: 0 20px;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		background-color: rgba($color: #fff, $alpha: 0.5);
+		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+		border-radius: 10px;
+	}
+	&-title {
+		font-size: calc(52px + 2vmin);
+		text-shadow: -2px 1px 3px #fff;
+	}
+	&-subtitle {
+		font-size: calc(44px + 2vmin);
+	}
+	&-logo {
+		width: 50vw;
+	}
+}
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5 {
+	position: absolute;
+	transition: 2s all ease;
+	background-position: center;
+	background-size: cover;
+	width: 100vw;
+	height: 100%;
+	z-index: -2;
+}
+.img-1 {
+	background-image: url('../../assets/main/m1.jpg');
+}
+.img-2 {
+	background-image: url('../../assets/main/m2.jpg');
+}
+.img-3 {
+	background-image: url('../../assets/main/m3.jpg');
+}
+.img-4 {
+	background-image: url('../../assets/main/m4.jpg');
+}
+.img-5 {
+	background-image: url('../../assets/main/m5.jpg');
+}
+
+@media screen and (max-width: 768px) {
+	.main {
+		&-title {
+			font-size: calc(36px + 2vmin);
+		}
+		&-subtitle {
+			font-size: calc(24px + 2vmin);
+		}
+	}
+}

@@ -1,0 +1,49 @@
+.navbarcompon {
+	position: fixed;
+	background-color: rgba($color: #2e2e2e, $alpha: 0.5);
+	width: 100vw;
+	z-index: 15;
+	&-container {
+		margin: 0;
+	}
+	&-wrapper {
+		width: 100%;
+		justify-content: start;
+		align-items: center;
+		text-align: center;
+	}
+	&-button {
+		justify-self: end;
+	}
+	&-lang {
+		margin-right: 5px;
+		a {
+			color: #fff;
+		}
+	}
+	&-logo {
+		border-radius: 10px;
+		width: 20vw;
+	}
+	&-item {
+		font-size: 14px;
+		color: #fff;
+	}
+}
+.active {
+	text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+	.navbarcompon {
+		&-wrapper {
+			visibility: hidden;
+			position: absolute;
+		}
+		&-button {
+			justify-self: start;
+		}
+		&-lang {
+			justify-self: start;
+		}
+	}
+}
