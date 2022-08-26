@@ -3,8 +3,8 @@ import { Container } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import menuIcon from '../../assets/icons/square.png';
-import logo from '../../assets/image/logo-t.png';
+import menuIcon from '../../assets/menu/square.png';
+import logo from '../../assets/main/logo-t.png';
 
 import './offcan.scss';
 function Offcan(props) {

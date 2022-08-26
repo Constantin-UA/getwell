@@ -1,6 +1,6 @@
 import { Container } from 'react-bootstrap';
 import { useEffect, useState } from 'react';
-import mainLogo from '../../assets/image/logo-t.png';
+import mainLogo from '../../assets/main/logo-t.png';
 import './main.scss';
 
 function Main(props) {

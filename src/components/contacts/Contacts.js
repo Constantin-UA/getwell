@@ -1,7 +1,7 @@
 import MyMapComponent from '../myMapComponent/MyMapComponent';
-import phone from '../../assets/icons/phone-call.png';
-import email from '../../assets/icons/envelope.png';
-import addres from '../../assets/icons/home.png';
+import phone from '../../assets/contacts/phone-call.png';
+import email from '../../assets/contacts/envelope.png';
+import addres from '../../assets/contacts/home.png';
 import './contacts.scss';
 
 function Contacts(props) {
