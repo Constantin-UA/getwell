@@ -39,11 +39,11 @@ const leng = [
 		contacts: {
 			title: 'KONTAKTY',
 			addresT: 'Adresa',
-			addresS: 'Hlavna 561, 951 78 Kolinany, Slovak Republik',
+			addresS: 'Slovak Republik',
 			phoneT: 'Telefón',
-			phoneS: '+421903711493',
+			phoneS: '+421000000000',
 			emailT: 'E-mail',
-			emailS: 'getwell.a.s@gmail.com',
+			emailS: 'somemamin@gmail.com',
 		},
 		logisticDrive: {
 			title: 'POHODLNÁ LOGISTIKA A DOPRAVA',
@@ -108,11 +108,11 @@ const leng = [
 		contacts: {
 			title: 'CONTACTS',
 			addresT: 'Address',
-			addresS: 'Hlavna 561, 951 78 Kolinany, Slovak Republik',
+			addresS: 'Slovak Republik',
 			phoneT: 'Phone',
-			phoneS: '+421903711493',
+			phoneS: '+421000000000',
 			emailT: 'E-mail',
-			emailS: 'getwell.a.s@gmail.com',
+			emailS: 'somemain@gmail.com',
 		},
 		logisticDrive: {
 			title: 'CONVENIENT LOGISTICS AND DELIVERY',
@@ -177,11 +177,11 @@ const leng = [
 		contacts: {
 			title: 'КОНТАКТЫ',
 			addresT: 'Адрес',
-			addresS: 'Hlavna 561, 951 78 Kolinany, Slovak Republik',
+			addresS: 'Slovak Republik',
 			phoneT: 'Телефон',
-			phoneS: '+421903711493',
+			phoneS: '+421000000000',
 			emailT: 'E-mail',
-			emailS: 'getwell.a.s@gmail.com',
+			emailS: 'somemain@gmail.com',
 		},
 		logisticDrive: {
 			title: 'УДОБНОЯ ЛОГИСТИКА И ОТГРУЗКА',
@@ -246,11 +246,11 @@ const leng = [
 		contacts: {
 			title: 'КОНТАКТИ',
 			addresT: 'Адреса',
-			addresS: 'Hlavna 561, 951 78 Kolinany, Slovak Republik',
+			addresS: 'Slovak Republik',
 			phoneT: 'Телефон',
-			phoneS: '+421903711493',
+			phoneS: '+421000000000',
 			emailT: 'E-mail',
-			emailS: 'getwell.a.s@gmail.com',
+			emailS: 'somemail@gmail.com',
 		},
 		logisticDrive: {
 			title: 'ЗРУЧНА ЛОГІСТИКА ТА ВІДВАНТАЖЕННЯ',
